@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ListUser = () => {
+    const [count, setCount] = useState(0);
+
+    const handleCLick = () =>{
+        setCount(count+1)
+    }
+
     return (
+        <>
         <div>
-            Niemhyvong VietNam
+            {count}
         </div>
+        <button onClick={handleCLick}>Click me</button>
+        </>
     );
 };
 
