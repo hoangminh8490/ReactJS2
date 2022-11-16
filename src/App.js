@@ -1,5 +1,3 @@
-import TodoStore from "./component/ClassComponent/index";
-
 export default function App() {
 
   function myFunction(param){
@@ -15,7 +13,6 @@ export default function App() {
 
   return (
     <>
-     <TodoStore />
     </>
   );
 }
